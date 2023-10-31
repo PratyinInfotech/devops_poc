@@ -22,7 +22,7 @@ pipeline {
     }
     stage('System Name'){
        steps{
-        bash '''
+        sh '''
 
 	    whoami
         
