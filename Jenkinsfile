@@ -24,7 +24,7 @@ pipeline {
        steps{
         bash '''
 
-	    whoiam
+	    whoami
         
         '''
       }
