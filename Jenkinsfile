@@ -21,6 +21,9 @@ pipeline {
         '''
 
       }
+      steps{
+        whoiam
+      }
 
     }
 
