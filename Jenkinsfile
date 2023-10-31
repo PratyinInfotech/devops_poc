@@ -22,8 +22,9 @@ pipeline {
     }
     stage('System Name'){
        steps{
-        sh '''
-        whoiam
+        bash '''
+
+	    whoiam
         
         '''
       }
