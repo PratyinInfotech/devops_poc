@@ -22,7 +22,10 @@ pipeline {
 
       }
       steps{
+        sh '''
         whoiam
+        
+        '''
       }
 
     }
