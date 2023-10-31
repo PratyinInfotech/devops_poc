@@ -12,12 +12,20 @@ pipeline {
 
       steps {
 
+	step{
+	sh '''
+	git -version
+	'''
+	}
+
+	step{
+
         sh '''
 
           java -version
 
         '''
-
+	}
       }
     }
     stage('System Name'){
