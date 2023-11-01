@@ -17,7 +17,6 @@ pipeline {
         '''
 	}
       }
-    }
     stage('System Name'){
        steps{
         sh '''
