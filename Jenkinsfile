@@ -12,7 +12,7 @@ pipeline {
 
       steps {
 	sh '''
-	git -version
+	git --version
         java -version
         '''
 	}
