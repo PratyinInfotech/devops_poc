@@ -11,10 +11,10 @@ pipeline {
     stage('Hello') {
 
       steps {
-	sh '
+	sh '''
 	git -version
         java -version
-        '
+        '''
 	}
       }
     }
