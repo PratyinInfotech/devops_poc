@@ -23,7 +23,7 @@ pipeline {
     stage('System Name'){
        steps{
         sh '''
-        whoiam
+        whoami
         
         '''
       }
